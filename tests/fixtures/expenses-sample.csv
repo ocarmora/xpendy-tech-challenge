@@ -1,0 +1,3 @@
+gasto_id,empleado_id,empleado_nombre,empleado_apellido,empleado_cost_center,categoria,monto,moneda,fecha
+g_001,e_002,Bruno,Soto,sales_team,food,50,USD,2026-05-26
+g_002,e_005,Eva,Luna,sales_team,food,81000,CLP,2026-05-11
