@@ -1,0 +1,9 @@
+{
+  "baseCurrency": "USD",
+  "ageLimits": { "pendingDays": 30, "rejectedDays": 60 },
+  "categoryLimits": {
+    "food": { "approvedUpTo": 100, "pendingUpTo": 150 },
+    "transport": { "approvedUpTo": 200, "pendingUpTo": 200 }
+  },
+  "costCenterRules": [{ "costCenter": "core_engineering", "forbiddenCategory": "food" }]
+}
