@@ -6,6 +6,25 @@ adapters)** architecture.
 
 ---
 
+## Challenge parts (git tags)
+
+The challenge is built in three incremental parts, each marked with a git tag. Check out a
+tag to see **only** the code for that part — every tag compiles and its test suite passes
+in isolation (`npm ci && npm test`).
+
+| Tag      | Part   | Scope                                                              |
+| -------- | ------ | ----------------------------------------------------------------- |
+| `part-1` | Part 1 | Pure rule engine: models, validation rules and unit tests.        |
+| `part-2` | Part 2 | Open Exchange Rates client and composition root (live I/O).       |
+| `part-3` | Part 3 | Batch analyzer, anomaly detection and `ANALISIS.md`.              |
+
+```bash
+git checkout part-1   # inspect a specific part
+git checkout main     # back to the full solution
+```
+
+---
+
 ## Requirements
 
 - **Node.js ≥ 22** (developed on v22).
