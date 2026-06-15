@@ -1,5 +1,7 @@
 # Análisis del lote de gastos
 
+> 🎥 **Video explicativo (Loom):** https://www.loom.com/share/a93e031e2ad5447abb0261010dcfe3b7
+
 Resultados de ejecutar el analizador (`npm run analyze:batch`) sobre
 `data/gastos_historicos.csv` (50 registros) contra `config/policy.json`.
 
